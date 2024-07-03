@@ -1,0 +1,672 @@
+
+{
+    "languages": [
+        {
+            "id": 1,
+            "language": "English",
+            "hello_world": "Hello, World!"
+        },
+        {
+            "id": 2,
+            "language": "Spanish",
+            "hello_world": "¡Hola, Mundo!"
+        },
+        {
+            "id": 3,
+            "language": "French",
+            "hello_world": "Bonjour, le monde!"
+        },
+        {
+            "id": 4,
+            "language": "German",
+            "hello_world": "Hallo, Welt!"
+        },
+        {
+            "id": 5,
+            "language": "Italian",
+            "hello_world": "Ciao, Mondo!"
+        },
+        {
+            "id": 6,
+            "language": "Portuguese",
+            "hello_world": "Olá, Mundo!"
+        },
+        {
+            "id": 7,
+            "language": "Russian",
+            "hello_world": "Привет, мир!"
+        },
+        {
+            "id": 8,
+            "language": "Chinese (Simplified)",
+            "hello_world": "你好，世界！"
+        },
+        {
+            "id": 9,
+            "language": "Chinese (Traditional)",
+            "hello_world": "你好，世界！"
+        },
+        {
+            "id": 10,
+            "language": "Japanese",
+            "hello_world": "こんにちは、世界！"
+        },
+        {
+            "id": 11,
+            "language": "Korean",
+            "hello_world": "안녕하세요, 세계!"
+        },
+        {
+            "id": 12,
+            "language": "Arabic",
+            "hello_world": "مرحبا بالعالم!"
+        },
+        {
+            "id": 13,
+            "language": "Hindi",
+            "hello_world": "नमस्ते, दुनिया!"
+        },
+        {
+            "id": 14,
+            "language": "Bengali",
+            "hello_world": "ওহে বিশ্ব!"
+        },
+        {
+            "id": 15,
+            "language": "Persian",
+            "hello_world": "سلام دنیا!"
+        },
+        {
+            "id": 16,
+            "language": "Turkish",
+            "hello_world": "Merhaba, Dünya!"
+        },
+        {
+            "id": 17,
+            "language": "Greek",
+            "hello_world": "Γειά σου, κόσμε!"
+        },
+        {
+            "id": 18,
+            "language": "Dutch",
+            "hello_world": "Hallo, Wereld!"
+        },
+        {
+            "id": 19,
+            "language": "Swedish",
+            "hello_world": "Hej, Världen!"
+        },
+        {
+            "id": 20,
+            "language": "Norwegian",
+            "hello_world": "Hei, Verden!"
+        },
+        {
+            "id": 21,
+            "language": "Danish",
+            "hello_world": "Hej, Verden!"
+        },
+        {
+            "id": 22,
+            "language": "Finnish",
+            "hello_world": "Hei, Maailma!"
+        },
+        {
+            "id": 23,
+            "language": "Polish",
+            "hello_world": "Witaj, Świecie!"
+        },
+        {
+            "id": 24,
+            "language": "Czech",
+            "hello_world": "Ahoj, světe!"
+        },
+        {
+            "id": 25,
+            "language": "Slovak",
+            "hello_world": "Ahoj, svet!"
+        },
+        {
+            "id": 26,
+            "language": "Hungarian",
+            "hello_world": "Helló, Világ!"
+        },
+        {
+            "id": 27,
+            "language": "Romanian",
+            "hello_world": "Salut, Lume!"
+        },
+        {
+            "id": 28,
+            "language": "Thai",
+            "hello_world": "สวัสดี, โลก!"
+        },
+        {
+            "id": 29,
+            "language": "Vietnamese",
+            "hello_world": "Xin chào, Thế giới!"
+        },
+        {
+            "id": 30,
+            "language": "Hebrew",
+            "hello_world": "שלום, עולם!"
+        },
+        {
+            "id": 31,
+            "language": "Swahili",
+            "hello_world": "Habari, Dunia!"
+        },
+        {
+            "id": 32,
+            "language": "Malay/Indonesian",
+            "hello_world": "Halo, Dunia!"
+        },
+        {
+            "id": 33,
+            "language": "Tagalog",
+            "hello_world": "Kamusta, Mundo!"
+        },
+        {
+            "id": 34,
+            "language": "Zulu",
+            "hello_world": "Sawubona, Mhlaba!"
+        },
+        {
+            "id": 35,
+            "language": "Ukrainian",
+            "hello_world": "Привіт, Світ!"
+        },
+        {
+            "id": 36,
+            "language": "Belarusian",
+            "hello_world": "Прывітанне, Свет!"
+        },
+        {
+            "id": 37,
+            "language": "Serbian",
+            "hello_world": "Здраво, Свете!"
+        },
+        {
+            "id": 38,
+            "language": "Croatian",
+            "hello_world": "Pozdrav, Svijete!"
+        },
+        {
+            "id": 39,
+            "language": "Bosnian",
+            "hello_world": "Zdravo, Svijete!"
+        },
+        {
+            "id": 40,
+            "language": "Slovenian",
+            "hello_world": "Pozdravljen, Svet!"
+        },
+        {
+            "id": 41,
+            "language": "Macedonian",
+            "hello_world": "Здраво, Свете!"
+        },
+        {
+            "id": 42,
+            "language": "Bulgarian",
+            "hello_world": "Здравей, свят!"
+        },
+        {
+            "id": 43,
+            "language": "Lithuanian",
+            "hello_world": "Labas, Pasauli!"
+        },
+        {
+            "id": 44,
+            "language": "Latvian",
+            "hello_world": "Sveika, Pasaule!"
+        },
+        {
+            "id": 45,
+            "language": "Estonian",
+            "hello_world": "Tere, Maailm!"
+        },
+        {
+            "id": 46,
+            "language": "Icelandic",
+            "hello_world": "Halló, Heimur!"
+        },
+        {
+            "id": 47,
+            "language": "Irish",
+            "hello_world": "Dia dhuit, a Dhomhain!"
+        },
+        {
+            "id": 48,
+            "language": "Welsh",
+            "hello_world": "Helo, Byd!"
+        },
+        {
+            "id": 49,
+            "language": "Basque",
+            "hello_world": "Kaixo, Mundua!"
+        },
+        {
+            "id": 50,
+            "language": "Catalan",
+            "hello_world": "Hola, Món!"
+        },
+        {
+            "id": 51,
+            "language": "Galician",
+            "hello_world": "Ola, Mundo!"
+        },
+        {
+            "id": 52,
+            "language": "Esperanto",
+            "hello_world": "Saluton, Mondo!"
+        },
+        {
+            "id": 53,
+            "language": "Albanian",
+            "hello_world": "Përshendetje, Botë!"
+        },
+        {
+            "id": 54,
+            "language": "Maltese",
+            "hello_world": "Ħello, Dinja!"
+        },
+        {
+            "id": 55,
+            "language": "Armenian",
+            "hello_world": "Բարեւ աշխարհ!"
+        },
+        {
+            "id": 56,
+            "language": "Georgian",
+            "hello_world": "გამარჯობა, მსოფლიო!"
+        },
+        {
+            "id": 57,
+            "language": "Afrikaans",
+            "hello_world": "Hallo, Wêreld!"
+        },
+        {
+            "id": 58,
+            "language": "Amharic",
+            "hello_world": "ሰላም ልዑል!"
+        },
+        {
+            "id": 59,
+            "language": "Azerbaijani",
+            "hello_world": "Salam Dünya!"
+        },
+        {
+            "id": 60,
+            "language": "Chichewa",
+            "hello_world": "Moni, Dziko!"
+        },
+        {
+            "id": 61,
+            "language": "Fijian",
+            "hello_world": "Bula, Vuravura!"
+        },
+        {
+            "id": 62,
+            "language": "Hausa",
+            "hello_world": "Sannu, Duniya!"
+        },
+        {
+            "id": 63,
+            "language": "Hmong",
+            "hello_world": "Nyob zoo, Ntiaj teb!"
+        },
+        {
+            "id": 64,
+            "language": "Kazakh",
+            "hello_world": "Сәлем Әлем!"
+        },
+        {
+            "id": 65,
+            "language": "Khmer",
+            "hello_world": "ជំរាបសួរ ពិភពលោក!"
+        },
+        {
+            "id": 66,
+            "language": "Kurdish (Kurmanji)",
+            "hello_world": "Slav, Cîhan!"
+        },
+        {
+            "id": 67,
+            "language": "Kyrgyz",
+            "hello_world": "Салам дүйнө!"
+        },
+        {
+            "id": 68,
+            "language": "Lao",
+            "hello_world": "ສະບາຍດີ, ທົ່ງເວັນ!"
+        },
+        {
+            "id": 69,
+            "language": "Luxembourgish",
+            "hello_world": "Moien, Welt!"
+        },
+        {
+            "id": 70,
+            "language": "Malagasy",
+            "hello_world": "Salama, Tontolo!"
+        },
+        {
+            "id": 71,
+            "language": "Maori",
+            "hello_world": "Kia ora, Ao!"
+        },
+        {
+            "id": 72,
+            "language": "Mongolian",
+            "hello_world": "Сайн уу, Ертөнц!"
+        },
+        {
+            "id": 73,
+            "language": "Nepali",
+            "hello_world": "नमस्ते, संसार!"
+        },
+        {
+            "id": 74,
+            "language": "Pashto",
+            "hello_world": "سلام نړی!"
+        },
+        {
+            "id": 75,
+            "language": "Sesotho",
+            "hello_world": "Lumela, Lefatše!"
+        },
+        {
+            "id": 76,
+            "language": "Shona",
+            "hello_world": "Mhoro, Nyika!"
+        },
+        {
+            "id": 77,
+            "language": "Sinhalese",
+            "hello_world": "ආයුබෝවන්, ලෝකය!"
+        },
+        {
+            "id": 78,
+            "language": "Somali",
+            "hello_world": "Salaan, Adduunyo!"
+        },
+        {
+            "id": 79,
+            "language": "Tajik",
+            "hello_world": "Салом Ҷаҳон!"
+        },
+        {
+            "id": 80,
+            "language": "Tatar",
+            "hello_world": "Сәлам, Дөнья!"
+        },
+        {
+            "id": 81,
+            "language": "Turkmen",
+            "hello_world": "Salam Dünýä!"
+        },
+        {
+            "id": 82,
+            "language": "Uzbek",
+            "hello_world": "Salom Dunyo!"
+        },
+        {
+            "id": 83,
+            "language": "Xhosa",
+            "hello_world": "Molo, Lizwe!"
+        },
+        {
+            "id": 84,
+            "language": "Yiddish",
+            "hello_world": "העלא, וועלט!"
+        },
+        {
+            "id": 85,
+            "language": "Yoruba",
+            "hello_world": "Pẹlẹ, Ayé!"
+        },
+        {
+            "id": 86,
+            "language": "Burmese",
+            "hello_world": "မင်္ဂလာပါကမ္ဘာလောက!"
+        },
+        {
+            "id": 87,
+            "language": "Javanese",
+            "hello_world": "Sugeng Rawuh, Jagad!"
+        },
+        {
+            "id": 88,
+            "language": "Sundanese",
+            "hello_world": "Wilujeng sumping, Dunya!"
+        },
+        {
+            "id": 89,
+            "language": "Haitian Creole",
+            "hello_world": "Bonjou, Mond!"
+        },
+        {
+            "id": 90,
+            "language": "Faroese",
+            "hello_world": "Halló, Heimur!"
+        },
+        {
+            "id": 91,
+            "language": "Lemerig",
+            "hello_world": "Lep te galaw"
+        },
+        {
+            "id": 92,
+            "language": "Njerep",
+            "hello_world": "Jok ël Ndàráw"
+        },
+        {
+            "id": 93,
+            "language": "Ongota",
+            "hello_world": "Hewóna, Baq'á"
+        },
+        {
+            "id": 94,
+            "language": "Chamicuro",
+            "hello_world": "Ipíye yeketi"
+        },
+        {
+            "id": 95,
+            "language": "Taushiro",
+            "hello_world": "Atsü a'y"
+        },
+        {
+            "id": 96,
+            "language": "Rama",
+            "hello_world": "Kabiní, Átrit"
+        },
+        {
+            "id": 97,
+            "language": "Cafundo Creole",
+            "hello_world": "Olá, Múndu"
+        },
+        {
+            "id": 98,
+            "language": "Wymysorys",
+            "hello_world": "Heit, Wéld!"
+        },
+        {
+            "id": 99,
+            "language": "Karaim",
+            "hello_world": "Salyam, Dúnya!"
+        },
+        {
+            "id": 100,
+            "language": "Hobyot",
+            "hello_world": "Marhaba, 'Alam!"
+        },
+        {
+            "id": 101,
+            "language": "Oneida",
+            "hello_world": "Seköh, Olíwelt"
+        },
+        {
+            "id": 102,
+            "language": "Adnyamathanha",
+            "hello_world": "Ngyari, Yarta!"
+        },
+        {
+            "id": 103,
+            "language": "Arona",
+            "hello_world": "Salam, Dunia!"
+        },
+        {
+            "id": 104,
+            "language": "Ili Turki",
+            "hello_world": "Salem, Dúnya!"
+        },
+        {
+            "id": 105,
+            "language": "Neku",
+            "hello_world": "Álë, Lóol"
+        },
+        {
+            "id": 106,
+            "language": "Bardi",
+            "hello_world": "Ngambala, Nyuni!"
+        },
+        {
+            "id": 107,
+            "language": "Sarcee",
+            "hello_world": "Adoó, Níìdá"
+        },
+        {
+            "id": 108,
+            "language": "Busukh",
+            "hello_world": "Salam, Dunia!"
+        },
+        {
+            "id": 109,
+            "language": "Guernésiais",
+            "hello_world": "Héy, Mond!"
+        },
+        {
+            "id": 110,
+            "language": "Paipai",
+            "hello_world": "Shenaat, Nyumí"
+        },
+        {
+            "id": 111,
+            "language": "Arem",
+            "hello_world": "Xin chào, Thế giới!"
+        },
+        {
+            "id": 112,
+            "language": "Latin",
+            "hello_world": "Salve, Munde!"
+        },
+        {
+            "id": 113,
+            "language": "Ancient Greek",
+            "hello_world": "Χαῖρε, Κόσμε!"
+        },
+        {
+            "id": 114,
+            "language": "Old English",
+            "hello_world": "Hāl, Woruld!"
+        },
+        {
+            "id": 115,
+            "language": "Middle English",
+            "hello_world": "Heil, World!"
+        },
+        {
+            "id": 116,
+            "language": "Old Norse",
+            "hello_world": "Heill, Heims!"
+        },
+        {
+            "id": 117,
+            "language": "Old High German",
+            "hello_world": "Hailo, Weralt!"
+        },
+        {
+            "id": 118,
+            "language": "Gothic",
+            "hello_world": "Hails, Fairguni!"
+        },
+        {
+            "id": 119,
+            "language": "Sanskrit",
+            "hello_world": "नमः, जगत्!"
+        },
+        {
+            "id": 120,
+            "language": "Old Church Slavonic",
+            "hello_world": "Здравствуйте, міръ!"
+        },
+        {
+            "id": 121,
+            "language": "Akkadian",
+            "hello_world": "Šulmu, mātu!"
+        },
+        {
+            "id": 122,
+            "language": "Sumerian",
+            "hello_world": "Eme-gir, Kagal!"
+        },
+        {
+            "id": 123,
+            "language": "Ancient Egyptian",
+            "hello_world": "Djed, Tawi!"
+        },
+        {
+            "id": 124,
+            "language": "Hittite",
+            "hello_world": "𒌑𒊭𒈠, 𒈤𒁕!"
+        },
+        {
+            "id": 125,
+            "language": "Phoenician",
+            "hello_world": "שָׁלוֹם, עוֹלָם!"
+        },
+        {
+            "id": 126,
+            "language": "Aramaic",
+            "hello_world": "ܫܠܡܐ, ܥܠܡܐ!"
+        },
+        {
+            "id": 127,
+            "language": "Coptic",
+            "hello_world": "Ⲡⲁⲣⲁⲃ, Ⲛⲟⲩⲧⲓ!"
+        },
+        {
+            "id": 128,
+            "language": "Etruscan",
+            "hello_world": "Avil, Śe!"
+        },
+        {
+            "id": 129,
+            "language": "Classical Nahuatl",
+            "hello_world": "Timo-itilia, Cem-anahuac!"
+        },
+        {
+            "id": 130,
+            "language": "Old Irish",
+            "hello_world": "Beannacht, Domhain!"
+        },
+        {
+            "id": 131,
+            "language": "Tocharian",
+            "hello_world": "Swāswār, Akem!"
+        },
+        {
+            "id": 132,
+            "language": "Old Prussian",
+            "hello_world": "Labban, Swāis!"
+        },
+        {
+            "id": 133,
+            "language": "Elamite",
+            "hello_world": "Siya, Halki!"
+        }
+    ]
+
+}
+
