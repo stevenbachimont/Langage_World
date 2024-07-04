@@ -77,13 +77,4 @@ svg {
     margin: 0 auto; /* Center horizontally */
 }
 
-.result h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.result p {
-    font-size: 1rem;
-    color: rgba(0, 0, 0, 0.6);
-}
 

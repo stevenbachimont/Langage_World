@@ -1,0 +1,20 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+   
+}
+
+h1 {
+    margin-top: 2vh;
+    font-size: 3em;
+}
+
+   
+
+p {
+    font-size: 1em;
+}

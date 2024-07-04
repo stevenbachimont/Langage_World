@@ -1,0 +1,16 @@
+.hello-world-container {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.hello-world-language {
+    font-size: 1.5em;
+}
+
+.hello-world-text {
+    font-size: 3em; 
+}
+
+.hello-world-spin{
+    font-size: 1em;
+}
