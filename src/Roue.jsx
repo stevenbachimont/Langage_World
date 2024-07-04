@@ -4,7 +4,7 @@ import confetti from 'canvas-confetti';
 import itemsObject from "./data/languages.json";
 import './roue.css';
 
-function Roue() {
+function Roue({ onSpinEnd }) {
     const svgRef = useRef(null);
     const [rotation, setRotation] = useState(0);
     const [isSpinning, setIsSpinning] = useState(false);
@@ -76,6 +76,7 @@ function Roue() {
                 setResult(itemsArray[wedgeIndex]);
 
                 confetti(); // Celebrate with confetti!
+                onSpinEnd(); 
             });
     };
 
