@@ -4,13 +4,12 @@ import confetti from 'canvas-confetti';
 import itemsObject from "./data/languages.json";
 import './roue.css';
 
-function Roue() {
+function Roue({ setResult }) {
     const svgRef = useRef(null);
     const [rotation, setRotation] = useState(0);
     const [isSpinning, setIsSpinning] = useState(false);
     const [wheelSize, setWheelSize] = useState(500); // Default wheel size
     const [buttonSize, setButtonSize] = useState('60px'); // Default button size
-    const [result, setResult] = useState(null); // State to hold the result
 
     const itemsArray = Object.values(itemsObject.languages);
 
@@ -73,7 +72,8 @@ function Roue() {
 
                 // Determine the selected item based on rotation
                 const wedgeIndex = Math.floor((finalRotation / 360) * itemsArray.length);
-                setResult(itemsArray[wedgeIndex]);
+                const selectedItem = itemsArray[wedgeIndex];
+                setResult(selectedItem);
 
                 confetti(); // Celebrate with confetti!
             });
@@ -103,21 +103,12 @@ function Roue() {
     }, []);
 
     return (
-        
         <div className="wheel-page">
             <div className="wheel-container">
                 <svg ref={svgRef}></svg>
-                <div className="spin-container__button" onClick={spin} disabled={isSpinning} style={{ width: buttonSize, height: buttonSize }}>
+                <button className="spin-container__button" onClick={spin} disabled={isSpinning} style={{ width: buttonSize, height: buttonSize }}>
                     {isSpinning ? 'Spinning...' : 'Spin'}
-                </div>
-            </div>
-            <div className="result-container">
-                {result && (
-                    <div className="result">
-                        <h2>{result.language}</h2>
-                        <p>{result.hello_world}</p>
-                    </div>
-                )}
+                </button>
             </div>
         </div>
     );

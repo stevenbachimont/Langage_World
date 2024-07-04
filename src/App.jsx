@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
-
-
+import HelloWorld from './components/HelloWorld';
 import Roue from "./Roue";
 
 
-
 function App() {
-  const [count, setCount] = useState(0)
+  const [result, setResult] = useState(null);
+  const [isSpinning, setIsSpinning] = useState(false);
 
   return (
-    <>
-<Roue />
-    </>
-  )
+    <div className="app-container">
+    <HelloWorld result={result} />
+    <Roue setResult={setResult} />
+    </div>
+  );
 }
 
-export default App
+export default App;
